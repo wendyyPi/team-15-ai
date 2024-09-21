@@ -8,6 +8,11 @@ public class AiGenerateReportApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AiGenerateReportApplication.class, args);
+
+
+
+
+
 	}
 
 }
