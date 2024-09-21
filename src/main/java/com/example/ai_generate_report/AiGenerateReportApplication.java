@@ -27,7 +27,11 @@ public class AiGenerateReportApplication {
 		}
 		System.out.println("Successfully loaded: " + patients.size() + " patients from the JSON");
 
-		System.out.println(generatePrompt(7, patients));
+		//Generate the prompt for the patient with ID 8
+		//Note: Since the list is indexed 0, personID 8 is index 7
+		String examplePrompt = generatePrompt(7, patients);
+		//Print out the prompt:
+		System.out.println(examplePrompt);
 
 
 
@@ -36,12 +40,14 @@ public class AiGenerateReportApplication {
 
 
 
-	//Input: personID, ranging from 0 to 19 (We have 20 fake patients in the JSON)
 	final static String promptStart = "I want you to generate a realistic hospital discharge report, given the following information: ";
 	final static String hospitalInfoPrompt = h.toString();
 	final static String patientPrompt = " and Patient information: ";
 	final static String promptEnd = " . Furthermore, the following details are not included, but I want you to generate appropriate responses for the report: Patient’s Allergies, Discharge Condition, Vital Signs or Lab Results, Instructions for the Patient, Emergency or Symptom Escalation Plan.";
 
+
+
+	//Input: personID, ranging from 0 to 19 (We have 20 fake patients in the JSON)
 	public static String generatePrompt(int personID, List<Patient> patients) {
 		if (personID < 0 || personID >= 20) {
 			personID = 0;
