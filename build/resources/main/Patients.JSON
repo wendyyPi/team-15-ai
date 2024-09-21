@@ -1,0 +1,904 @@
+[
+  {
+    "firstName": "James",
+    "lastName": "McCarthy",
+    "deceasedStatement": null,
+    "dateOfBirth": "1976-07-14",
+    "age": 48,
+    "sex": "Male",
+    "residentialAddress": "42 Wallaby Way, Sydney, NSW 2000, Australia",
+    "telephone": "0412-345-678",
+    "patientID": 1,
+    "indigenousStatus": "Non-Indigenous",
+    "dateOfAdmission": "2024-09-12",
+    "dateOfDischarge": "2024-09-19",
+    "clinicalUnit": "Gen Med",
+    "episodeType": "Elective",
+    "seniorClinician": "Dr. Rachel Thompson",
+    "dischargeLocation": "Home",
+    "principalDiagnosis": "NSTEMI",
+    "reasonForPresentation": "Chest pain",
+    "secondaryDiagnoses": [
+      "HTN",
+      "T2DM",
+      "DLD"
+    ],
+    "complications": [
+      "AKI"
+    ],
+    "pastMedicalHistory": [
+      "IHD",
+      "COPD",
+      "OSA"
+    ],
+    "procedures": [
+      "Coronary angiogram",
+      "PCI to LAD"
+    ],
+    "clinicalSummary": "Patient presented with chest pain. Diagnosed with NSTEMI, underwent PCI to LAD. Discharged in a stable condition after 7 days, with instructions for outpatient follow-up and medication adjustments.",
+    "medicinesOnDischarge": [
+      "Atorvastatin 40mg PO nocte",
+      "Metoprolol 50mg PO BD",
+      "Aspirin 100mg PO mane",
+      "Clopidogrel 75mg PO mane"
+    ],
+    "ceasedMedicines": [
+      "Ramipril 2mg TDS"
+    ],
+    "precautions": [
+      "Avoid heavy lifting for 2 weeks",
+      "Monitor for signs of bleeding"
+    ],
+    "followUpAppointments": [
+      "2024-10-05 with Dr. Rachel Thompson at Cardiology OPD"
+    ],
+    "informationProvidedToPatient": [
+      "Discharge summary",
+      "Medication list",
+      "Follow-up appointment details"
+    ]
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "deceasedStatement": null,
+    "dateOfBirth": "1982-03-09",
+    "age": 42,
+    "sex": "Female",
+    "residentialAddress": "78 Koala Crescent, Melbourne, VIC 3000, Australia",
+    "telephone": "0432-987-654",
+    "patientID": 2,
+    "indigenousStatus": "Indigenous",
+    "dateOfAdmission": "2024-09-10",
+    "dateOfDischarge": "2024-09-18",
+    "clinicalUnit": "Surgical",
+    "episodeType": "Acute",
+    "seniorClinician": "Dr. Sarah Davis",
+    "dischargeLocation": "Rehabilitation facility",
+    "principalDiagnosis": "Appendicitis",
+    "reasonForPresentation": "Abdominal pain",
+    "secondaryDiagnoses": [
+      "HTN"
+    ],
+    "complications": [],
+    "pastMedicalHistory": [
+      "Asthma",
+      "HTN"
+    ],
+    "procedures": [
+      "Appendectomy"
+    ],
+    "clinicalSummary": "Patient presented with abdominal pain, diagnosed with appendicitis, underwent successful appendectomy. Discharged to rehabilitation facility.",
+    "medicinesOnDischarge": [
+      "Paracetamol 1g PO QID",
+      "Ibuprofen 400mg PO TDS"
+    ],
+    "ceasedMedicines": [],
+    "precautions": [
+      "Avoid strenuous activity for 4 weeks"
+    ],
+    "followUpAppointments": [
+      "2024-09-30 with Dr. Sarah Davis at Surgical OPD"
+    ],
+    "informationProvidedToPatient": [
+      "Discharge summary",
+      "Post-surgical care instructions",
+      "Follow-up appointment details"
+    ]
+  },
+  {
+    "firstName": "James",
+    "lastName": "McCarthy",
+    "deceasedStatement": null,
+    "dateOfBirth": "1976-07-14",
+    "age": 48,
+    "sex": "Male",
+    "residentialAddress": "42 Wallaby Way, Sydney, NSW 2000, Australia",
+    "telephone": "0412-345-678",
+    "patientID": 3,
+    "indigenousStatus": "Non-Indigenous",
+    "dateOfAdmission": "2024-09-12",
+    "dateOfDischarge": "2024-09-19",
+    "clinicalUnit": "Gen Med",
+    "episodeType": "Elective",
+    "seniorClinician": "Dr. Rachel Thompson",
+    "dischargeLocation": "Home",
+    "principalDiagnosis": "NSTEMI",
+    "reasonForPresentation": "Chest pain",
+    "secondaryDiagnoses": [
+      "HTN",
+      "T2DM",
+      "DLD"
+    ],
+    "complications": [
+      "AKI"
+    ],
+    "pastMedicalHistory": [
+      "IHD",
+      "COPD",
+      "OSA"
+    ],
+    "procedures": [
+      "Coronary angiogram",
+      "PCI to LAD"
+    ],
+    "clinicalSummary": "Patient presented with chest pain. Diagnosed with NSTEMI, underwent PCI to LAD. Discharged in a stable condition after 7 days, with instructions for outpatient follow-up and medication adjustments.",
+    "medicinesOnDischarge": [
+      "Atorvastatin 40mg PO nocte",
+      "Metoprolol 50mg PO BD",
+      "Aspirin 100mg PO mane",
+      "Clopidogrel 75mg PO mane"
+    ],
+    "ceasedMedicines": [
+      "Ramipril"
+    ],
+    "precautions": [
+      "Avoid heavy lifting for 2 weeks",
+      "Monitor for signs of bleeding"
+    ],
+    "followUpAppointments": [
+      "2024-10-05 with Dr. Rachel Thompson at Cardiology OPD"
+    ],
+    "informationProvidedToPatient": [
+      "Discharge summary",
+      "Medication list",
+      "Follow-up appointment details"
+    ]
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "deceasedStatement": null,
+    "dateOfBirth": "1982-03-09",
+    "age": 42,
+    "sex": "Female",
+    "residentialAddress": "78 Koala Crescent, Melbourne, VIC 3000, Australia",
+    "telephone": "0432-987-654",
+    "patientID": 4,
+    "indigenousStatus": "Indigenous",
+    "dateOfAdmission": "2024-09-10",
+    "dateOfDischarge": "2024-09-18",
+    "clinicalUnit": "Surgical",
+    "episodeType": "Acute",
+    "seniorClinician": "Dr. Sarah Davis",
+    "dischargeLocation": "Rehabilitation facility",
+    "principalDiagnosis": "Appendicitis",
+    "reasonForPresentation": "Abdominal pain",
+    "secondaryDiagnoses": [
+      "HTN"
+    ],
+    "complications": [],
+    "pastMedicalHistory": [
+      "Asthma",
+      "HTN"
+    ],
+    "procedures": [
+      "Appendectomy"
+    ],
+    "clinicalSummary": "Patient presented with abdominal pain, diagnosed with appendicitis, underwent successful appendectomy. Discharged to rehabilitation facility.",
+    "medicinesOnDischarge": [
+      "Paracetamol 1g PO QID",
+      "Ibuprofen 400mg PO TDS"
+    ],
+    "ceasedMedicines": [],
+    "precautions": [
+      "Avoid strenuous activity for 4 weeks"
+    ],
+    "followUpAppointments": [
+      "2024-09-30 with Dr. Sarah Davis at Surgical OPD"
+    ],
+    "informationProvidedToPatient": [
+      "Discharge summary",
+      "Post-surgical care instructions",
+      "Follow-up appointment details"
+    ]
+  },
+  {
+    "firstName": "Olivia",
+    "lastName": "Williams",
+    "deceasedStatement": null,
+    "dateOfBirth": "1990-11-25",
+    "age": 33,
+    "sex": "Female",
+    "residentialAddress": "12 Kookaburra Lane, Brisbane, QLD 4000, Australia",
+    "telephone": "0401-234-567",
+    "patientID": 5,
+    "indigenousStatus": "Non-Indigenous",
+    "dateOfAdmission": "2024-08-20",
+    "dateOfDischarge": "2024-08-27",
+    "clinicalUnit": "Maternity",
+    "episodeType": "Emergency",
+    "seniorClinician": "Dr. Fiona Wilson",
+    "dischargeLocation": "Home",
+    "principalDiagnosis": "Pre-eclampsia",
+    "reasonForPresentation": "Severe headache and high BP",
+    "secondaryDiagnoses": [],
+    "complications": [
+      "HELLP syndrome"
+    ],
+    "pastMedicalHistory": [
+      "GDM"
+    ],
+    "procedures": [
+      "Caesarean section"
+    ],
+    "clinicalSummary": "Admitted for emergency C-section due to pre-eclampsia. Post-op recovery was uneventful. Discharged after a 7-day stay with follow-up scheduled.",
+    "medicinesOnDischarge": [
+      "Labetalol 200mg PO TDS",
+      "Paracetamol 1g PO QID"
+    ],
+    "ceasedMedicines": [],
+    "precautions": [
+      "Monitor BP at home",
+      "No heavy lifting"
+    ],
+    "followUpAppointments": [
+      "2024-09-10 with Dr. Fiona Wilson at Maternity OPD"
+    ],
+    "informationProvidedToPatient": [
+      "BP monitoring guide",
+      "Post-op care instructions",
+      "Breastfeeding tips"
+    ]
+  },
+  {
+    "firstName": "Liam",
+    "lastName": "Brown",
+    "deceasedStatement": null,
+    "dateOfBirth": "1955-04-12",
+    "age": 69,
+    "sex": "Male",
+    "residentialAddress": "90 Kangaroo Street, Perth, WA 6000, Australia",
+    "telephone": "0410-987-654",
+    "patientID": 6,
+    "indigenousStatus": "Non-Indigenous",
+    "dateOfAdmission": "2024-09-01",
+    "dateOfDischarge": "2024-09-15",
+    "clinicalUnit": "Oncology",
+    "episodeType": "Planned",
+    "seniorClinician": "Dr. Michael Green",
+    "dischargeLocation": "Home",
+    "principalDiagnosis": "Lung cancer",
+    "reasonForPresentation": "Routine chemotherapy",
+    "secondaryDiagnoses": [
+      "HTN",
+      "COPD"
+    ],
+    "complications": [
+      "Neutropenia"
+    ],
+    "pastMedicalHistory": [
+      "Smoking history"
+    ],
+    "procedures": [
+      "Chemotherapy",
+      "CT scan"
+    ],
+    "clinicalSummary": "Admitted for chemotherapy for lung cancer. Developed neutropenia during treatment, managed conservatively. Discharged after 14 days.",
+    "medicinesOnDischarge": [
+      "Filgrastim 300mcg SC daily",
+      "Ondansetron 8mg PO TDS"
+    ],
+    "ceasedMedicines": [],
+    "precautions": [
+      "Avoid contact with sick individuals",
+      "Monitor for signs of infection"
+    ],
+    "followUpAppointments": [
+      "2024-09-30 with Dr. Michael Green at Oncology OPD"
+    ],
+    "informationProvidedToPatient": [
+      "Chemotherapy side effects guide",
+      "Neutropenia precautions",
+      "Follow-up details"
+    ]
+  },
+  {
+    "firstName": "Noah",
+    "lastName": "Taylor",
+    "deceasedStatement": null,
+    "dateOfBirth": "1985-06-18",
+    "age": 39,
+    "sex": "Male",
+    "residentialAddress": "25 Possum Avenue, Hobart, TAS 7000, Australia",
+    "telephone": "0433-456-789",
+    "patientID": 7,
+    "indigenousStatus": "Indigenous",
+    "dateOfAdmission": "2024-08-15",
+    "dateOfDischarge": "2024-08-22",
+    "clinicalUnit": "Orthopaedics",
+    "episodeType": "Emergency",
+    "seniorClinician": "Dr. Andrew Harris",
+    "dischargeLocation": "Home",
+    "principalDiagnosis": "Fractured femur",
+    "reasonForPresentation": "Fall from height",
+    "secondaryDiagnoses": [],
+    "complications": [
+      "DVT"
+    ],
+    "pastMedicalHistory": [],
+    "procedures": [
+      "ORIF of femur"
+    ],
+    "clinicalSummary": "Patient presented with fractured femur after a fall. Underwent ORIF of femur. Discharged after 7 days with DVT prophylaxis and follow-up scheduled.",
+    "medicinesOnDischarge": [
+      "Enoxaparin 40mg SC daily",
+      "Paracetamol 1g PO QID"
+    ],
+    "ceasedMedicines": [],
+    "precautions": [
+      "No weight-bearing for 6 weeks",
+      "Regular wound care"
+    ],
+    "followUpAppointments": [
+      "2024-09-22 with Dr. Andrew Harris at Orthopaedics OPD"
+    ],
+    "informationProvidedToPatient": [
+      "Wound care instructions",
+      "DVT prevention tips",
+      "Follow-up appointment details"
+    ]
+  },
+  {
+    "firstName": "Sophie",
+    "lastName": "Davis",
+    "deceasedStatement": null,
+    "dateOfBirth": "1978-01-14",
+    "age": 46,
+    "sex": "Female",
+    "residentialAddress": "66 Echidna Drive, Adelaide, SA 5000, Australia",
+    "telephone": "0422-654-321",
+    "patientID": 8,
+    "indigenousStatus": "Non-Indigenous",
+    "dateOfAdmission": "2024-07-25",
+    "dateOfDischarge": "2024-08-01",
+    "clinicalUnit": "Neurology",
+    "episodeType": "Elective",
+    "seniorClinician": "Dr. Olivia Carter",
+    "dischargeLocation": "Home",
+    "principalDiagnosis": "Migraine with aura",
+    "reasonForPresentation": "Severe headache and visual disturbance",
+    "secondaryDiagnoses": [
+      "HTN"
+    ],
+    "complications": [],
+    "pastMedicalHistory": [
+      "Migraines",
+      "HTN"
+    ],
+    "procedures": [],
+    "clinicalSummary": "Admitted for intractable migraine with aura. Managed conservatively with medications. Discharged after 7 days with follow-up.",
+    "medicinesOnDischarge": [
+      "Sumatriptan 100mg PO PRN",
+      "Propranolol 40mg PO BD"
+    ],
+    "ceasedMedicines": [],
+    "precautions": [
+      "Avoid known migraine triggers",
+      "Keep a headache diary"
+    ],
+    "followUpAppointments": [
+      "2024-09-15 with Dr. Olivia Carter at Neurology OPD"
+    ],
+    "informationProvidedToPatient": [
+      "Migraine management guide",
+      "Medication list",
+      "Follow-up appointment details"
+    ]
+  },
+  {
+    "firstName": "Ava",
+    "lastName": "Evans",
+    "deceasedStatement": null,
+    "dateOfBirth": "2002-09-30",
+    "age": 22,
+    "sex": "Female",
+    "residentialAddress": "23 Wombat Road, Darwin, NT 0800, Australia",
+    "telephone": "0444-555-666",
+    "patientID": 9,
+    "indigenousStatus": "Non-Indigenous",
+    "dateOfAdmission": "2024-09-05",
+    "dateOfDischarge": "2024-09-10",
+    "clinicalUnit": "Gastroenterology",
+    "episodeType": "Emergency",
+    "seniorClinician": "Dr. David Lee",
+    "dischargeLocation": "Home",
+    "principalDiagnosis": "Acute pancreatitis",
+    "reasonForPresentation": "Severe abdominal pain",
+    "secondaryDiagnoses": [],
+    "complications": [
+      "Pseudocyst formation"
+    ],
+    "pastMedicalHistory": [],
+    "procedures": [
+      "Abdominal ultrasound"
+    ],
+    "clinicalSummary": "Patient presented with acute pancreatitis. Managed conservatively, with formation of pseudocyst noted on ultrasound. Discharged after 5 days with outpatient follow-up.",
+    "medicinesOnDischarge": [
+      "Pancrelipase 25,000 units PO with meals",
+      "Ibuprofen 400mg PO TDS"
+    ],
+    "ceasedMedicines": [],
+    "precautions": [
+      "Low-fat diet",
+      "Avoid alcohol"
+    ],
+    "followUpAppointments": [
+      "2024-09-30 with Dr. David Lee at Gastroenterology OPD"
+    ],
+    "informationProvidedToPatient": [
+      "Dietary recommendations",
+      "Pain management instructions",
+      "Follow-up appointment details"
+    ]
+  },
+  {
+    "firstName": "Lucas",
+    "lastName": "Wilson",
+    "deceasedStatement": null,
+    "dateOfBirth": "1968-08-05",
+    "age": 56,
+    "sex": "Male",
+    "residentialAddress": "9 Emu Street, Canberra, ACT 2600, Australia",
+    "telephone": "0455-678-910",
+    "patientID": 10,
+    "indigenousStatus": "Indigenous",
+    "dateOfAdmission": "2024-09-12",
+    "dateOfDischarge": "2024-09-20",
+    "clinicalUnit": "Renal",
+    "episodeType": "Planned",
+    "seniorClinician": "Dr. Chris Taylor",
+    "dischargeLocation": "Home",
+    "principalDiagnosis": "Chronic kidney disease stage 4",
+    "reasonForPresentation": "Routine dialysis",
+    "secondaryDiagnoses": [
+      "HTN",
+      "T2DM"
+    ],
+    "complications": [],
+    "pastMedicalHistory": [
+      "Diabetes",
+      "HTN"
+    ],
+    "procedures": [
+      "Haemodialysis"
+    ],
+    "clinicalSummary": "Admitted for routine haemodialysis due to CKD stage 4. Stable during admission and discharged after 8 days.",
+    "medicinesOnDischarge": [
+      "Furosemide 40mg PO mane",
+      "Insulin glargine 10 units SC nocte"
+    ],
+    "ceasedMedicines": [],
+    "precautions": [
+      "Monitor blood sugar levels",
+      "Maintain dialysis schedule"
+    ],
+    "followUpAppointments": [
+      "2024-09-25 with Dr. Chris Taylor at Renal OPD"
+    ],
+    "informationProvidedToPatient": [
+      "Dialysis instructions",
+      "Blood sugar monitoring guide",
+      "Follow-up appointment details"
+    ]
+  },
+  {
+    "firstName": "George",
+    "lastName": "Clark",
+    "deceasedStatement": "Deceased on 2024-08-15",
+    "dateOfBirth": "1950-03-10",
+    "age": 74,
+    "sex": "Male",
+    "residentialAddress": "45 Koala Court, Sydney, NSW 2000, Australia",
+    "telephone": "0415-234-789",
+    "patientID": 11,
+    "indigenousStatus": "Non-Indigenous",
+    "dateOfAdmission": "2024-07-01",
+    "dateOfDischarge": null,
+    "clinicalUnit": "ICU",
+    "episodeType": "Emergency",
+    "seniorClinician": "Dr. Kevin Brown",
+    "dischargeLocation": null,
+    "principalDiagnosis": "Severe sepsis with multi-organ failure",
+    "reasonForPresentation": "Respiratory distress",
+    "secondaryDiagnoses": [
+      "AKI",
+      "ARDS",
+      "CHF"
+    ],
+    "complications": [
+      "DIC",
+      "Respiratory arrest"
+    ],
+    "pastMedicalHistory": [
+      "Hypertension",
+      "COPD",
+      "IHD"
+    ],
+    "procedures": [
+      "Intubation",
+      "Mechanical ventilation",
+      "CRRT"
+    ],
+    "clinicalSummary": "Patient presented in respiratory distress due to severe sepsis. Developed multi-organ failure, requiring prolonged mechanical ventilation and renal replacement therapy. Unfortunately, the patient passed away after a 45-day ICU stay due to complications from sepsis.",
+    "medicinesOnDischarge": null,
+    "ceasedMedicines": null,
+    "precautions": null,
+    "followUpAppointments": null,
+    "informationProvidedToPatient": null
+  },
+  {
+    "firstName": "Amelia",
+    "lastName": "Roberts",
+    "deceasedStatement": "Deceased on 2024-09-05",
+    "dateOfBirth": "1945-11-23",
+    "age": 79,
+    "sex": "Female",
+    "residentialAddress": "100 Wattle Street, Melbourne, VIC 3000, Australia",
+    "telephone": "0420-987-123",
+    "patientID": 12,
+    "indigenousStatus": "Non-Indigenous",
+    "dateOfAdmission": "2024-06-30",
+    "dateOfDischarge": null,
+    "clinicalUnit": "Palliative Care",
+    "episodeType": "Planned",
+    "seniorClinician": "Dr. Emily White",
+    "dischargeLocation": null,
+    "principalDiagnosis": "Metastatic pancreatic cancer",
+    "reasonForPresentation": "Intractable pain and weight loss",
+    "secondaryDiagnoses": [
+      "Cachexia",
+      "Biliary obstruction"
+    ],
+    "complications": [
+      "Ascites",
+      "Jaundice"
+    ],
+    "pastMedicalHistory": [
+      "Type 2 diabetes mellitus",
+      "Chronic kidney disease"
+    ],
+    "procedures": [
+      "ERCP with stent placement",
+      "Paracentesis"
+    ],
+    "clinicalSummary": "Patient with end-stage pancreatic cancer admitted for symptom management. Despite aggressive pain control and supportive care, patient condition continued to deteriorate. Passed away after a 67-day stay in the palliative care unit.",
+    "medicinesOnDischarge": null,
+    "ceasedMedicines": null,
+    "precautions": null,
+    "followUpAppointments": null,
+    "informationProvidedToPatient": null
+  },
+  {
+    "firstName": "Benjamin",
+    "lastName": "Stewart",
+    "deceasedStatement": null,
+    "dateOfBirth": "1988-07-18",
+    "age": 36,
+    "sex": "Male",
+    "residentialAddress": "29 Gumtree Lane, Perth, WA 6000, Australia",
+    "telephone": "0419-765-432",
+    "patientID": 13,
+    "indigenousStatus": "Indigenous",
+    "dateOfAdmission": "2024-03-01",
+    "dateOfDischarge": "2024-09-10",
+    "clinicalUnit": "Neurosurgery",
+    "episodeType": "Elective",
+    "seniorClinician": "Dr. John Harris",
+    "dischargeLocation": "Rehabilitation facility",
+    "principalDiagnosis": "Traumatic brain injury with intracerebral hemorrhage",
+    "reasonForPresentation": "Head trauma from motor vehicle accident",
+    "secondaryDiagnoses": [
+      "Seizures",
+      "Cerebral edema"
+    ],
+    "complications": [
+      "Post-traumatic hydrocephalus",
+      "DVT"
+    ],
+    "pastMedicalHistory": [
+      "Epilepsy"
+    ],
+    "procedures": [
+      "Craniotomy",
+      "VP shunt placement"
+    ],
+    "clinicalSummary": "Patient admitted following a motor vehicle accident with traumatic brain injury. Underwent emergency craniotomy to evacuate intracerebral hemorrhage. Long recovery involving multiple surgeries and prolonged rehabilitation. Discharged to a rehabilitation facility after a 6-month hospital stay.",
+    "medicinesOnDischarge": [
+      "Levetiracetam 500mg PO BD",
+      "Warfarin 5mg PO daily",
+      "Mannitol 20% IV PRN"
+    ],
+    "ceasedMedicines": [],
+    "precautions": [
+      "Fall precautions",
+      "Seizure monitoring"
+    ],
+    "followUpAppointments": [
+      "2024-10-01 with Dr. John Harris at Neurosurgery OPD"
+    ],
+    "informationProvidedToPatient": [
+      "Rehabilitation plan",
+      "Seizure management instructions",
+      "Follow-up appointment details"
+    ]
+  },
+  {
+    "firstName": "Charlotte",
+    "lastName": "Turner",
+    "deceasedStatement": null,
+    "dateOfBirth": "1995-05-05",
+    "age": 29,
+    "sex": "Female",
+    "residentialAddress": "15 Platypus Drive, Brisbane, QLD 4000, Australia",
+    "telephone": "0402-333-222",
+    "patientID": 14,
+    "indigenousStatus": "Non-Indigenous",
+    "dateOfAdmission": "2024-02-15",
+    "dateOfDischarge": "2024-09-01",
+    "clinicalUnit": "Haematology",
+    "episodeType": "Elective",
+    "seniorClinician": "Dr. Sarah Collins",
+    "dischargeLocation": "Home",
+    "principalDiagnosis": "Acute myeloid leukemia",
+    "reasonForPresentation": "Fatigue and bruising",
+    "secondaryDiagnoses": [
+      "Febrile neutropenia",
+      "Pneumonia"
+    ],
+    "complications": [
+      "Sepsis",
+      "Mucositis"
+    ],
+    "pastMedicalHistory": [],
+    "procedures": [
+      "Bone marrow biopsy",
+      "Chemotherapy"
+    ],
+    "clinicalSummary": "Patient diagnosed with acute myeloid leukemia. Underwent intensive chemotherapy with multiple complications including febrile neutropenia and sepsis. After prolonged hospital stay and multiple rounds of treatment, patient was stabilized and discharged to continue outpatient chemotherapy.",
+    "medicinesOnDischarge": [
+      "Filgrastim 300mcg SC daily",
+      "Ciprofloxacin 500mg PO BD",
+      "Fluconazole 200mg PO daily"
+    ],
+    "ceasedMedicines": [],
+    "precautions": [
+      "Avoid crowds due to immunosuppression",
+      "Monitor for signs of infection"
+    ],
+    "followUpAppointments": [
+      "2024-09-15 with Dr. Sarah Collins at Haematology OPD"
+    ],
+    "informationProvidedToPatient": [
+      "Chemotherapy side effects guide",
+      "Neutropenia precautions",
+      "Follow-up appointment details"
+    ]
+  },
+  {
+    "firstName": "Ethan",
+    "lastName": "Martinez",
+    "deceasedStatement": null,
+    "dateOfBirth": "1972-12-30",
+    "age": 52,
+    "sex": "Male",
+    "residentialAddress": "33 Emu Street, Darwin, NT 0800, Australia",
+    "telephone": "0445-987-654",
+    "patientID": 15,
+    "indigenousStatus": "Non-Indigenous",
+    "dateOfAdmission": "2024-04-10",
+    "dateOfDischarge": "2024-09-20",
+    "clinicalUnit": "Cardiothoracic ICU",
+    "episodeType": "Emergency",
+    "seniorClinician": "Dr. William Thompson",
+    "dischargeLocation": "Rehabilitation facility",
+    "principalDiagnosis": "End-stage heart failure",
+    "reasonForPresentation": "Acute decompensation",
+    "secondaryDiagnoses": [
+      "Atrial fibrillation",
+      "CKD stage 3"
+    ],
+    "complications": [
+      "Cardiogenic shock",
+      "Pulmonary edema"
+    ],
+    "pastMedicalHistory": [
+      "Coronary artery disease",
+      "T2DM"
+    ],
+    "procedures": [
+      "LVAD implantation",
+      "ECMO"
+    ],
+    "clinicalSummary": "Patient presented with acute decompensated heart failure and required advanced life support including ECMO and LVAD implantation. Stabilized after several weeks of critical care. Discharged to a rehabilitation facility after a 5-month hospital stay, awaiting heart transplant.",
+    "medicinesOnDischarge": [
+      "Warfarin 5mg PO daily",
+      "Furosemide 40mg PO BD",
+      "Spironolactone 25mg PO daily"
+    ],
+    "ceasedMedicines": [],
+    "precautions": [
+      "Monitor INR levels",
+      "Fluid restriction"
+    ],
+    "followUpAppointments": [
+      "2024-10-15 with Dr. William Thompson at Cardiothoracic OPD"
+    ],
+    "informationProvidedToPatient": [
+      "Heart failure management plan",
+      "LVAD care instructions",
+      "Follow-up appointment details"
+    ]
+  },
+  {
+    "firstName": "Alexander",
+    "lastName": "Mitchell",
+    "deceasedStatement": null,
+    "dateOfBirth": "1965-08-15",
+    "age": 59,
+    "sex": "Male",
+    "residentialAddress": "72 Echidna Street, Canberra, ACT 2600, Australia",
+    "telephone": "0422-789-345",
+    "patientID": 16,
+    "indigenousStatus": "Non-Indigenous",
+    "dateOfAdmission": "2024-01-05",
+    "dateOfDischarge": "2024-07-20",
+    "clinicalUnit": "ICU, Cardiology",
+    "episodeType": "Emergency",
+    "seniorClinician": "Dr. Lisa Cooper",
+    "dischargeLocation": "Home with home care assistance",
+    "principalDiagnosis": "Acute myocardial infarction with cardiogenic shock",
+    "reasonForPresentation": "Severe chest pain and breathlessness",
+    "secondaryDiagnoses": ["Congestive heart failure", "Atrial fibrillation", "AKI"],
+    "complications": ["Pulmonary edema", "Cardiogenic shock", "Ventricular arrhythmias"],
+    "pastMedicalHistory": ["Hypertension", "Type 2 diabetes", "Dyslipidemia"],
+    "procedures": ["PCI to LAD", "Cardiac catheterization", "Intubation and mechanical ventilation"],
+    "clinicalSummary": "Patient presented with acute myocardial infarction complicated by cardiogenic shock. Emergent PCI to LAD was performed, followed by prolonged ICU stay with mechanical ventilation. The patient developed multiple complications, including acute kidney injury and ventricular arrhythmias, managed with medications and close monitoring. After a 6-month hospital stay, the patient was discharged home with home care assistance.",
+    "medicinesOnDischarge": ["Aspirin 100mg PO mane", "Atorvastatin 40mg PO nocte", "Furosemide 40mg PO BD", "Metoprolol 50mg PO BD", "Warfarin 5mg PO daily"],
+    "ceasedMedicines": ["Ramipril"],
+    "precautions": ["Fluid restriction", "Daily weight monitoring"],
+    "followUpAppointments": ["2024-08-15 with Dr. Lisa Cooper at Cardiology OPD"],
+    "informationProvidedToPatient": ["Heart failure management plan", "Medication guide", "Fluid restriction instructions"]
+  },
+  {
+    "firstName": "Sophia",
+    "lastName": "Carter",
+    "deceasedStatement": null,
+    "dateOfBirth": "1978-04-30",
+    "age": 46,
+    "sex": "Female",
+    "residentialAddress": "91 Kangaroo Avenue, Melbourne, VIC 3000, Australia",
+    "telephone": "0432-567-890",
+    "patientID": 17,
+    "indigenousStatus": "Indigenous",
+    "dateOfAdmission": "2023-11-20",
+    "dateOfDischarge": "2024-08-01",
+    "clinicalUnit": "Oncology, Neurology",
+    "episodeType": "Planned",
+    "seniorClinician": "Dr. Emma Richardson",
+    "dischargeLocation": "Rehabilitation facility",
+    "principalDiagnosis": "Glioblastoma multiforme",
+    "reasonForPresentation": "Headache, confusion, and vision changes",
+    "secondaryDiagnoses": ["Seizures", "DVT", "Cerebral edema"],
+    "complications": ["Intracranial hemorrhage", "Pneumonia", "Leukoencephalopathy"],
+    "pastMedicalHistory": ["Hypertension", "Asthma"],
+    "procedures": ["Craniotomy for tumor resection", "Radiotherapy", "Chemotherapy"],
+    "clinicalSummary": "Patient was diagnosed with advanced glioblastoma multiforme. Underwent craniotomy for tumor resection, followed by intensive radiotherapy and chemotherapy. The patient experienced significant complications, including seizures, cerebral edema, and a prolonged ICU stay due to pneumonia. After 9 months in the hospital, the patient was discharged to a rehabilitation facility for further recovery and supportive care.",
+    "medicinesOnDischarge": ["Levetiracetam 500mg PO BD", "Dexamethasone 4mg PO BD", "Enoxaparin 40mg SC daily", "Ondansetron 8mg PO PRN", "Morphine 10mg PO PRN"],
+    "ceasedMedicines": ["Carbamazepine"],
+    "precautions": ["Monitor for signs of increased ICP", "Seizure precautions"],
+    "followUpAppointments": ["2024-09-15 with Dr. Emma Richardson at Oncology OPD"],
+    "informationProvidedToPatient": ["Chemotherapy side effects guide", "Seizure management instructions", "Follow-up details"]
+  },
+  {
+    "firstName": "Ethan",
+    "lastName": "Hughes",
+    "deceasedStatement": null,
+    "dateOfBirth": "1982-10-19",
+    "age": 42,
+    "sex": "Male",
+    "residentialAddress": "34 Emu Crescent, Darwin, NT 0800, Australia",
+    "telephone": "0456-789-123",
+    "patientID": 18,
+    "indigenousStatus": "Non-Indigenous",
+    "dateOfAdmission": "2023-09-01",
+    "dateOfDischarge": "2024-05-10",
+    "clinicalUnit": "Nephrology, ICU",
+    "episodeType": "Emergency",
+    "seniorClinician": "Dr. David Green",
+    "dischargeLocation": "Home with dialysis",
+    "principalDiagnosis": "End-stage renal disease with complications",
+    "reasonForPresentation": "Severe fatigue, nausea, and confusion",
+    "secondaryDiagnoses": ["Hyperkalemia", "Metabolic acidosis", "Pulmonary edema"],
+    "complications": ["Septic shock", "Pericarditis", "Respiratory failure"],
+    "pastMedicalHistory": ["Diabetes mellitus type 2", "Hypertension", "CKD stage 4"],
+    "procedures": ["Hemodialysis", "Intubation and mechanical ventilation", "Pericardiocentesis"],
+    "clinicalSummary": "Patient presented with severe metabolic acidosis and hyperkalemia secondary to end-stage renal disease. Emergency hemodialysis was initiated. During the hospital stay, the patient developed septic shock and respiratory failure, requiring prolonged mechanical ventilation and ICU care. The patient eventually stabilized and was discharged after 8 months on regular hemodialysis with close outpatient monitoring.",
+    "medicinesOnDischarge": ["Sodium bicarbonate 500mg PO TDS", "Furosemide 40mg PO BD", "Sevelamer 800mg PO TDS", "Insulin glargine 15 units SC nocte", "Warfarin 5mg PO daily"],
+    "ceasedMedicines": [],
+    "precautions": ["Dialysis 3 times a week", "Daily blood pressure monitoring"],
+    "followUpAppointments": ["2024-06-01 with Dr. David Green at Nephrology OPD"],
+    "informationProvidedToPatient": ["Dialysis care guide", "Medication schedule", "Blood pressure monitoring instructions"]
+  },
+  {
+    "firstName": "Mia",
+    "lastName": "Bennett",
+    "deceasedStatement": null,
+    "dateOfBirth": "1990-03-02",
+    "age": 34,
+    "sex": "Female",
+    "residentialAddress": "11 Kookaburra Road, Sydney, NSW 2000, Australia",
+    "telephone": "0424-555-666",
+    "patientID": 19,
+    "indigenousStatus": "Non-Indigenous",
+    "dateOfAdmission": "2024-02-10",
+    "dateOfDischarge": "2024-08-01",
+    "clinicalUnit": "Respiratory ICU, Infectious Diseases",
+    "episodeType": "Emergency",
+    "seniorClinician": "Dr. Michael Williams",
+    "dischargeLocation": "Home with oxygen therapy",
+    "principalDiagnosis": "Severe COVID-19 pneumonia with ARDS",
+    "reasonForPresentation": "Shortness of breath, cough, and fever",
+    "secondaryDiagnoses": ["Septic shock", "Pulmonary embolism", "DIC"],
+    "complications": ["Multiorgan failure", "Tracheostomy", "Critical illness myopathy"],
+    "pastMedicalHistory": ["Asthma", "Obesity"],
+    "procedures": ["Mechanical ventilation", "Prone positioning", "ECMO"],
+    "clinicalSummary": "Patient was admitted with severe COVID-19 pneumonia complicated by ARDS. Required prolonged mechanical ventilation and ECMO for respiratory support. The patient developed multiple organ failure and septic shock, necessitating a long ICU stay. A tracheostomy was performed, and the patient gradually recovered after several months of intensive care. Discharged home on long-term oxygen therapy.",
+    "medicinesOnDischarge": ["Dexamethasone 6mg PO daily", "Rivaroxaban 10mg PO daily", "Vitamin C 500mg PO TDS", "Meropenem 1g IV TDS", "Remdesivir IV daily"],
+    "ceasedMedicines": [],
+    "precautions": ["Oxygen therapy at 2L/min", "Monitor for signs of thromboembolism"],
+    "followUpAppointments": ["2024-09-01 with Dr. Michael Williams at Respiratory OPD"],
+    "informationProvidedToPatient": ["COVID-19 recovery plan", "Oxygen therapy instructions", "Follow-up details"]
+  },
+  {
+    "firstName": "Lucas",
+    "lastName": "Morgan",
+    "deceasedStatement": null,
+    "dateOfBirth": "1970-12-11",
+    "age": 54,
+    "sex": "Male",
+    "residentialAddress": "5 Koala Lane, Perth, WA 6000, Australia",
+    "telephone": "0431-456-789",
+    "patientID": 20,
+    "indigenousStatus": "Indigenous",
+    "dateOfAdmission": "2023-10-05",
+    "dateOfDischarge": "2024-07-15",
+    "clinicalUnit": "Hepatology, ICU",
+    "episodeType": "Emergency",
+    "seniorClinician": "Dr. Olivia Taylor",
+    "dischargeLocation": "Home awaiting liver transplant",
+    "principalDiagnosis": "Decompensated cirrhosis with hepatic encephalopathy",
+    "reasonForPresentation": "Confusion, jaundice, and abdominal pain",
+    "secondaryDiagnoses": ["Portal hypertension", "Esophageal varices", "Acute kidney injury"],
+    "complications": ["Hepatorenal syndrome", "Ascites", "Spontaneous bacterial peritonitis"],
+    "pastMedicalHistory": ["Alcohol use disorder", "Hepatitis C"],
+    "procedures": ["Paracentesis", "Endoscopic variceal ligation", "CRRT"],
+    "clinicalSummary": "Patient with decompensated cirrhosis presented with hepatic encephalopathy and acute kidney injury. Developed complications including hepatorenal syndrome and spontaneous bacterial peritonitis, requiring CRRT and multiple paracenteses. After 9 months in the hospital, the patient was stabilized and discharged home while awaiting a liver transplant.",
+    "medicinesOnDischarge": ["Lactulose 30mL PO BD", "Spironolactone 100mg PO daily", "Norfloxacin 400mg PO daily", "Furosemide 40mg PO BD", "Albumin IV weekly"],
+    "ceasedMedicines": [],
+    "precautions": ["Low-sodium diet", "Daily abdominal girth measurement"],
+    "followUpAppointments": ["2024-08-10 with Dr. Olivia Taylor at Hepatology OPD"],
+    "informationProvidedToPatient": ["Cirrhosis care guide", "Transplant evaluation details", "Follow-up appointment details"]
+  }
+
+]
