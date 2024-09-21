@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Person Information</title>
+</head>
+<body>
+<h2>Enter Person ID</h2>
+<input type="text" id="personId" placeholder="Enter Person ID">
+<button onclick="getPersonInfo()">Get Info</button>
+<div id="personInfo"></div>
+
+<script>
+    function getPersonInfo() {
+        let personId = document.getElementById("personId").value;
+        fetch(`/person/${personId}`)
+            .then(response => response.json())
+            .then(data => {
+                let info = `Name: ${data.name}, Age: ${data.age}`;
+                document.getElementById("personInfo").innerHTML = info;
+            })
+            .catch(error => console.error('Error:', error));
+    }
+</script>
+</body>
+</html>
