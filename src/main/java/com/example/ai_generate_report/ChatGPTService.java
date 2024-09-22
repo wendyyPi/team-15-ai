@@ -15,7 +15,7 @@ import java.util.Map;
 public class ChatGPTService {
 
     private static final String API_URL = "https://api.openai.com/v1/chat/completions";
-    private static final String API_KEY = "sk-TbLCVMfkoP7962a3HZ4hntORzLZdsRJKLUT-HToGh5T3BlbkFJBV9PmZA_eg5v8RadMmHfMdqIU_sqJOo9obd4byhBEA";  // Replace with your actual API key
+    private static final String API_KEY = "";  // Replace with your actual API key
 
     public String getChatGPTResponse(String prompt) {
         RestTemplate restTemplate = new RestTemplate();
