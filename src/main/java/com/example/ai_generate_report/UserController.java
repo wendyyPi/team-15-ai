@@ -1,21 +1,22 @@
 package com.example.ai_generate_report;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/person")
 public class UserController {
-    private final PersonService personService;
 
-    public UserController(PersonService personService) {
+    private final PersonService personService;
+    private final ChatGPTService chatGPTService;
+
+    public UserController(PersonService personService, ChatGPTService chatGPTService) {
         this.personService = personService;
+        this.chatGPTService = chatGPTService;
     }
 
     @GetMapping("/{id}")
-    public Person getPersonInfo(@PathVariable String id) {
-        return personService.getPersonById(id);
+    public String getPersonInfo(@PathVariable String id) {
+        String prompt = personService.getPersonPromptById(id);  // Generate the patient prompt
+        return chatGPTService.getChatGPTResponse(prompt);  // Get the ChatGPT response
     }
 }

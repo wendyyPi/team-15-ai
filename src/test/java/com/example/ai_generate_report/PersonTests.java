@@ -3,14 +3,13 @@ package com.example.ai_generate_report;
 
 import com.fasterxml.jackson.core.type.*;
 import com.fasterxml.jackson.databind.*;
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.context.*;
 
 import java.io.*;
 import java.util.*;
 
 @SpringBootTest
- class PatientTests {
+ class PersonTests {
 
 
     public static void main(String[] args) {
@@ -22,11 +21,11 @@ import java.util.*;
 
         try {
             // Deserialize JSON into List<Patient>
-            List<Patient> patients = objectMapper.readValue(new File(jsonFilePath), new TypeReference<List<Patient>>() {});
+            List<Person> patients = objectMapper.readValue(new File(jsonFilePath), new TypeReference<List<Person>>() {});
 
             System.out.println("num patients " + patients.size());
             // Now you can iterate over the list of patients
-            for (Patient patient : patients) {
+            for (Person patient : patients) {
                 System.out.println("Patient First Name: " + patient.getFirstName());
                 System.out.println("Principal Diagnosis: " + patient.getPrincipalDiagnosis());
                 System.out.println("Patient ID: " + patient.getPatientID());

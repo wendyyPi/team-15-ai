@@ -2,25 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Person Information</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discharge Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        .report-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .report-section {
+            margin-bottom: 20px;
+        }
+        .report-section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        .report-section p, .report-section ul {
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body>
+
 <h2>Enter Person ID</h2>
 <input type="text" id="personId" placeholder="Enter Person ID">
 <button onclick="getPersonInfo()">Get Info</button>
-<div id="personInfo"></div>
+
+<div id="personInfo" class="report-container"></div>
 
 <script>
-    function getPersonInfo() {
-        let personId = document.getElementById("personId").value;
-        fetch(`/person/${personId}`)
-            .then(response => response.json())
-            .then(data => {
-                let info = `Name: ${data.name}, Age: ${data.age}`;
-                document.getElementById("personInfo").innerHTML = info;
-            })
-            .catch(error => console.error('Error:', error));
-    }
-</script>
+        function getPersonInfo() {
+            let personId = document.getElementById("personId").value;
+            fetch(`/person/${personId}`)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("personInfo").innerHTML = data;
+                })
+                .catch(error => console.error('Error:', error));
+        }
+    </script>
+
 </body>
 </html>
